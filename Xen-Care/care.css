@@ -1,0 +1,46 @@
+/* Header of page */
+#header {
+    font-weight: bold;
+    font-size: 50px;
+    padding-left: 60px;
+    padding-top: 20px;
+    background-color:rgba(105, 204, 224, 0.252);
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+/* First letter design */
+#header::first-letter {
+    font-size: 70px;
+    color: rgba(238, 38, 38, 0.914); 
+}
+
+/* content */
+#content {
+    padding-top: 150px;
+    height: 200px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+/* footer */
+#foot {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #2a2222e1;
+    color: rgb(245, 245, 245);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+}
